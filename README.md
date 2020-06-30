@@ -43,7 +43,7 @@
 - Android
   ```sh
   react-native run-android
-
+  ```
 
 ## Configure Your Application With A Firebase Project :fire:
 
@@ -54,8 +54,6 @@
   - Follow the [React Native Firebase Getting Started Guide](https://rnfirebase.io/) for your target OS to configure your project with Firebase. Everyone should have autolinking available to them so stop when you see "Manual Linking", you don't need to complete the miscellaneous section
     > **Note:** If you're developing on, macOS: I recommend setting up both android and ios (ios minimum) android: you can only setup android
 
-
-  ```
 
 ## Help
 

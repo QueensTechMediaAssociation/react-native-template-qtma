@@ -1,10 +1,8 @@
 import React from 'react';
-import {createDrawerNavigator} from '@react-navigation/drawer';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import HomeScreen from '../screens/Drawer/home';
 import LoadingScreen from '../screens/Drawer/loading';
 import SettingsScreen from '../screens/Drawer/settings';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const Tab = createBottomTabNavigator();
 

@@ -31,7 +31,10 @@
   - Create a new React Native project using the repository you cloned earlier as a template
   ```sh
   cd <Your_Personal_Github_Repository>
+  MAC
   react-native init <your_react_native_project_name> --template file:///Users/quentinrf/QTMA_Template/react-native-template-qtma
+  PC
+  react-native init <your_react_native_project_name> --template file://C:/Users/quentinrf/QTMA_Template/react-native-template-qtma
   ```
 
 ## Run Your Mobile Application and watch it fail

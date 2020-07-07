@@ -10,6 +10,7 @@
     - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) code formatter
 - Download [Git](https://git-scm.com/)
 - Download [NPM](https://www.npmjs.com/get-npm)
+- Download [yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 
 ## Environment Setup :evergreen_tree:
 - Open a Terminal/CMD and clone the template repository to a known folder for example /quentinrf/QTMA_Template/
@@ -25,7 +26,6 @@
 - Open the [React Native Environment Setup](https://reactnative.dev/docs/environment-setup)
 
 ## Get Started With The Template
-
 - In your Terminal/CMD
   - Navigate to your project's GitHub repository
   - Create a new React Native project using the repository you cloned earlier as a template

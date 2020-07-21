@@ -13,7 +13,7 @@
 - Download [yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 
 ## Environment Setup :evergreen_tree:
-- Open a Terminal/CMD and clone the template repository to a known folder for example /quentinrf/QTMA_Template/
+- Open a VSCode, open an integreated terminal Terminal>New Terminal and clone the template repository to a known folder for example /quentinrf/QTMA_Template/
   ```sh
   mkdir QTMA_Template
   cd QTMA_Template

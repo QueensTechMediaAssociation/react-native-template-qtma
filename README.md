@@ -22,7 +22,7 @@
 - :warning: In the React Native Environment Setup make sure you do the following
   - Switch to the React Native CLI Quickstart (Not EXPO), make sure you select the Development OS and target OS pertaining to your machine
   - Follow the tutorial until the "Creating a new application" section
-  > _Note:_ If you're on MacOS follow the tutorial for both Target OS's as you'll be able to preview your application for both Android and IOS
+  > _Note:_ follow the tutorial for both Target OS's as you'll want to setup your project for both Android and IOS
 - Open the [React Native Environment Setup](https://reactnative.dev/docs/environment-setup)
 
 ## Get Started With The Template
@@ -31,10 +31,7 @@
   - Create a new React Native project using the repository you cloned earlier as a template
   ```sh
   cd <Your_Personal_Github_Repository>
-  MAC
   react-native init <your_react_native_project_name> --template file:///Users/quentinrf/QTMA_Template/react-native-template-qtma
-  PC
-  react-native init <your_react_native_project_name> --template file://C:/Users/quentinrf/QTMA_Template/react-native-template-qtma
   ```
 
 ## Run Your Mobile Application and watch it fail

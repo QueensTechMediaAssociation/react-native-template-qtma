@@ -23,12 +23,13 @@
   - Switch to the React Native CLI Quickstart (Not EXPO), make sure you select the Development OS and target OS pertaining to your machine
   - Follow the tutorial until the "Creating a new application" section
   > _Note:_ follow the tutorial for both Target OS's as you'll want to setup your project for both Android and IOS
-- Open the [React Native Environment Setup](https://reactnative.dev/docs/environment-setup)
+- Follow the [React Native Environment Setup](https://reactnative.dev/docs/environment-setup) until the "Creating a new application" section
 
 ## Get Started With The Template
 - In your Terminal/CMD
   - Navigate to your project's GitHub repository
   - Create a new React Native project using the repository you cloned earlier as a template
+  - :warning: make sure to replace my path with your machines unique path!
   ```sh
   cd <Your_Personal_Github_Repository>
   react-native init <your_react_native_project_name> --template file:///Users/quentinrf/QTMA_Template/react-native-template-qtma

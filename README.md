@@ -40,11 +40,16 @@
 - Open <your_project_name>/app.json
   - Change the "name" and "displayName" values to match the project name you just gave your React Native Project
 - Depending on which target OS you've configured your project for you'll need to run a different command
-- Both should be setup however you can only do this on macOS, if you're doing this tutorial just follow the android setup
 - ios
   - Open <your_project_name>/ios/<your_project_name>.xcworkspace
   - Click on your project in the left pane, then click the first Target under TARGETS, navigate to Signing & Capabilities (next to General) and add an apple development team and a unique bundle identifier
-  - In your integrated terminal cd into <your_project_name>/ios and run
+  - In your projects top level directory there will be a package.lock and a yarn.lock file, delete the package.lock as we'll be using yarn
+  - For some weird reason the react-native-vector-icons package causes a build failure when configured from the template
+  - Run
+  ```sh
+  yarn add react-native-vector-icons
+  ```
+  - cd into <your_project_name>/ios and run
   ```sh
   pod install
   ```
@@ -67,7 +72,6 @@
 - Now it's time to add this project to your mobile app
   - In the Firebase project overview click on add app, select the same targetOS as used in "Environment Setup"
   - Follow the [React Native Firebase Getting Started Guide](https://rnfirebase.io/) for your target OS to configure your project with Firebase. Everyone should have autolinking available to them so stop when you see "Manual Linking", you don't need to complete the miscellaneous section
-    > **Note:** If you're developing on, macOS: I recommend setting up both android and ios (ios minimum) android: you can only setup android
 
 
 ## Help

@@ -44,6 +44,10 @@
 - ios
   - Open <your_project_name>/ios/<your_project_name>.xcworkspace
   - Click on your project in the left pane, then click the first Target under TARGETS, navigate to Signing & Capabilities (next to General) and add an apple development team and a unique bundle identifier
+  - In your integrated terminal cd into <your_project_name>/ios and run
+  ```sh
+  pod install
+  ```
   - Now run your application with the following command and you should see an error "No Firebase App '[DEFAULT]' has been created - call firebase.initializeApp()"
   ```sh
   react-native run-ios

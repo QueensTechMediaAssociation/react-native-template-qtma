@@ -13,12 +13,7 @@
 - Download [yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 
 ## Environment Setup :evergreen_tree:
-- Open a VSCode, open an integreated terminal Terminal>New Terminal and clone the template repository to a known folder for example /quentinrf/QTMA_Template/
-  ```sh
-  mkdir QTMA_Template
-  cd QTMA_Template
-  git clone https://github.com/QueensTechMediaAssociation/react-native-template-qtma
-  ```
+- Run `yarn global add react-native-cli` to get the react native cli installed globally on your machine
 - :warning: In the React Native Environment Setup make sure you do the following
   - Switch to the React Native CLI Quickstart (Not EXPO), make sure you select the Development OS and target OS pertaining to your machine
   - Follow the tutorial until the "Creating a new application" section
@@ -26,6 +21,12 @@
 - Follow the [React Native Environment Setup](https://reactnative.dev/docs/environment-setup) until the "Creating a new application" section
 
 ## Get Started With The Template
+- Open a VSCode, open an integreated terminal Terminal>New Terminal and clone the template repository to a known folder for example /quentinrf/QTMA_Template/
+  ```sh
+  mkdir QTMA_Template
+  cd QTMA_Template
+  git clone https://github.com/QueensTechMediaAssociation/react-native-template-qtma
+  ```
 - In your Terminal/CMD
   - Navigate to your project's GitHub repository
   - Create a new React Native project using the repository you cloned earlier as a template

@@ -41,7 +41,7 @@
 - Open <your_project_name>/app.json
   - Change the "name" and "displayName" values to match the project name you just gave your React Native Project
 - Depending on which target OS you've configured your project for you'll need to run a different command
-- ios
+- ios to be done in XCode
   - Open <your_project_name>/ios/<your_project_name>.xcworkspace
   - Click on your project in the left pane, then click the first Target under TARGETS, navigate to Signing & Capabilities (next to General) and add an apple development team and a unique bundle identifier
   - In your projects top level directory there will be a package.lock and a yarn.lock file, delete the package.lock as we'll be using yarn
